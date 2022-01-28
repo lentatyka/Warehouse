@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/changeTableFragment">
+
+    <fragment
+        android:id="@+id/tablesFragment"
+        android:name="com.lentatyka.warehouse.fragments.TableViewFragment"
+        android:label="Table"
+        tools:layout="@layout/table_view_fragment">
+        <action
+            android:id="@+id/action_tablesFragment_to_addItemFragment"
+            app:destination="@id/addItemFragment" />
+        <action
+            android:id="@+id/action_tablesFragment_to_changeTableFragment"
+            app:destination="@id/changeTableFragment"
+            app:popUpTo="@id/changeTableFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addItemFragment"
+        android:name="com.lentatyka.warehouse.fragments.AddItemFragment"
+        android:label="Edit item"
+        tools:layout="@layout/add_item_fragment">
+        <argument
+            android:name="itemId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addItemFragment_to_tablesFragment"
+            app:destination="@id/tablesFragment"
+            app:popUpTo="@id/tablesFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeTableFragment"
+        android:name="com.lentatyka.warehouse.fragments.ChangeTableFragment"
+        android:label="Change table"
+        tools:layout="@layout/fragment_change_table">
+        <action
+            android:id="@+id/action_changeTableFragment_to_tablesFragment"
+            app:destination="@id/tablesFragment" />
+        <action
+            android:id="@+id/action_changeTableFragment_to_createTableFragment"
+            app:destination="@id/createTableFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTableFragment"
+        android:name="com.lentatyka.warehouse.fragments.CreateTableFragment"
+        android:label="Create table"
+        tools:layout="@layout/fragment_create_table">
+        <action
+            android:id="@+id/action_createTableFragment_to_changeTableFragment"
+            app:destination="@id/changeTableFragment"
+            app:popUpTo="@id/changeTableFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="tab_names"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Warehouse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_new_item">Добавить</string>
+    <string name="table_name">Имя таблицы</string>
+    <string name="field_name">Имя поля</string>
+    <string name="radio_txt">TEXT</string>
+    <string name="radio_int">INT</string>
+    <string name="radio_real">REAL</string>
+    <string name="yes_btn">Да</string>
+    <string name="cancel">Отмена</string>
+    <string name="save_table">Save</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Править</string>
+    <string name="ok_btn">OK</string>
+    <string name="empty_name">\"Пустое имя или поля таблицы\"</string>
+    <string name="exists_name">\"Имя таблицы занято\"</string>
+    <string name="unaccabtable">\"Недопустимые символы\"</string>
+    <string name="remove_table">Удалить таблицу \"%1$s\"?</string>
+</resources>

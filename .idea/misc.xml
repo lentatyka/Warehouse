@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Warehouse/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/activity_main.xml" value="0.20625" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/add_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/add_item_fragment.xml" value="0.25" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/cardview_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/dialog_create_field.xml" value="0.33" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/fragment_change_table.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/fragment_create_table.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/item_lalala.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/menu_save_table.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/swipe_item.xml" value="0.291213768115942" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/table_edit_item.xml" value="0.33" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/table_item.xml" value="0.33" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/table_item_primary.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/table_row_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/table_view_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/tables_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/layout/tables_name_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/menu/menu_dwa.xml" value="0.203125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/menu/menu_save.xml" value="0.203125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/menu/menu_save_table.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/menu/menu_seach.xml" value="0.203125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/menu/menu_search.xml" value="0.203125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/menu/my_menu_serach.xml" value="0.203125" />
+        <entry key="..\:/Android/Warehouse/app/src/main/res/xml/searchable.xml" value="0.203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
